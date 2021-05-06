@@ -74,7 +74,7 @@ const Registro = () => {
 
   const validEdad = (str) => {
 
-    let pattern = /[1-5][1-9]/;
+    let pattern = /^([1-5][1-9])$/;
 
     return !!pattern.test(str);
 
